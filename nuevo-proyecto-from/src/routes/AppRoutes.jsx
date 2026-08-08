@@ -8,9 +8,11 @@ function AppRoutes() {
   return (
     <Routes>
         <Route path="/" element={<dashboard />} />
+        <Route path="/dashboard" element={<dashboard />} />
         <Route path="/students" element={<Students />} />
         <Route path="/courses" element={<Courses />} />
         <Route path="/enrollments" element={<Enrollments />} />
     </Routes>
-  )
+  );
 }
+export default AppRoutes;
