@@ -1,16 +1,10 @@
-import MainLayout from "../layout/LayoutPrueba";
-import Header from "../components/Header";
+import LayoutPrueba from "../layout/LayoutPrueba";
 
 function Courses() {
   return (
-    <div>
-      <MainLayout>
-        <Header 
-          title="Página de Cursos" 
-          description="Bienvenido al sistema de gestión de cursos" 
-        />
-      </MainLayout>
-    </div>
+    <LayoutPrueba titulo="Cursos">
+      <h1 className="text-2xl font-bold">Cursos</h1>
+    </LayoutPrueba>
   );
 }
 

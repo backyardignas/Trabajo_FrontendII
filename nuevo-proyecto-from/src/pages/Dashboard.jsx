@@ -1,16 +1,10 @@
-import MainLayout from "../layout/LayoutPrueba";
-import Header from "../components/Header";
+import LayoutPrueba from "../layout/LayoutPrueba";
 
 function Dashboard() {
   return (
-    <div>
-      <MainLayout>
-        <Header 
-          title="Página de Dashboard" 
-          description="Bienvenido al sistema de gestión de dashboard" 
-        />
-      </MainLayout>
-    </div>
+    <LayoutPrueba titulo="Dashboard">
+      <h1 className="text-2xl font-bold">Bienvenido al Dashboard</h1>
+    </LayoutPrueba>
   );
 }
 

@@ -1,17 +1,11 @@
-import MainLayout from "../layout/LayoutPrueba";
-import Header from "../components/Header";
+import LayoutPrueba from "../layout/LayoutPrueba";
 
-function Dashboard() {
+function Enrollments() {
   return (
-    <div>
-      <MainLayout>
-        <Header 
-          title="Página de enrollments" 
-          description="Bienvenido al sistema de gestión de enrollments" 
-        />
-      </MainLayout>
-    </div>
+    <LayoutPrueba titulo="Matriculas">
+      <h1 className="text-2xl font-bold">Matriculas</h1>
+    </LayoutPrueba>
   );
 }
 
-export default Dashboard;
+export default Enrollments;
