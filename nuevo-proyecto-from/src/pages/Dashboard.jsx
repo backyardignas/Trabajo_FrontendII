@@ -1,13 +1,17 @@
-import Footer from '../components/Footer'
+import MainLayout from "../layout/LayoutPrueba";
+import Header from "../components/Header";
 
 function Dashboard() {
-    return (
-        <>
-        <div>
-            <h1>Dashboard</h1>
-        </div>
-        </>
-    );
+  return (
+    <div>
+      <MainLayout>
+        <Header 
+          title="Página de Dashboard" 
+          description="Bienvenido al sistema de gestión de dashboard" 
+        />
+      </MainLayout>
+    </div>
+  );
 }
 
-export default Dashboard
+export default Dashboard;

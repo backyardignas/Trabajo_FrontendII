@@ -1,13 +1,17 @@
-import Footer from '../components/Footer'
+import MainLayout from "../layout/LayoutPrueba";
+import Header from "../components/Header";
 
-function Enrollments() {
-    return (
-        <>  
-        <div>
-            <h1>Enrollments</h1>
-        </div>
-        </>
-    );
+function Dashboard() {
+  return (
+    <div>
+      <MainLayout>
+        <Header 
+          title="Página de enrollments" 
+          description="Bienvenido al sistema de gestión de enrollments" 
+        />
+      </MainLayout>
+    </div>
+  );
 }
 
-export default Enrollments
+export default Dashboard;
